@@ -1,0 +1,8 @@
+affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              -key: color
+              operator: In
+              values:
+              -blue
